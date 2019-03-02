@@ -1,4 +1,18 @@
 body{
-    background-color: lavender;
-    
+    background-color: lightyellow;
+}
+.navlink{
+    font-weight: lighter;
+}
+.navlink:hover{
+    font-weight: bolder;
+    background-color: #eee
+}
+header{
+    height:600px;
+    width:100%;
+    background-image: url("chicken.jpg");
+    background-size: cover;
+    text-align: center;
+    color: lightyellow;
 }
