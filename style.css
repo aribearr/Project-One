@@ -20,10 +20,10 @@ header{
 header p{
     font-style: italic;
 }
-aboutus{
+section{
     text-align: center;
     color: purple;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Caveat', cursive;
 }
 .aboutus i{
     font-size: 30px;
