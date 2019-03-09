@@ -1,6 +1,7 @@
 body{
     background-color: lightyellow;
 }
+/*.=class*/
 .navlink{
     font-weight: lighter;
 }
@@ -29,13 +30,21 @@ section{
     font-family: 'Caveat', cursive;
     font-size: x-large;
 }
+.aboutus h2{
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.aboutus h3{
+    font-family: 'Shadows Into Light Two', cursive;
+}
+/*icons*/
 .aboutus i{
+    /*change icon size*/
     font-size: 35px;
-    padding: 25px 20px;
+    padding: 23px 20px;
     
     /*change color*/
-    color: #fff;
-    background-color: #c5c5ad;
+    color: #FFF;
+    background-color: #C5C5AD;
     
     /*change size*/
     width: 80px;
@@ -55,4 +64,47 @@ section{
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 50px;
+}
+.team{
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #BB69DE;
+}
+.getinvolved{
+    background-color: #49AFCE;
+    text-align: center;
+    padding: 50px 0px 80px;
+    color: grey;
+    font-size: x-large;
+}
+.getinvolved h2{
+    color: lightyellow;
+}
+.getinvolved i{
+    color: #9F9292;
+    /*change icon size*/
+    font-size:40px;
+    /*fit icon*/
+    width: 50px;
+    height: 40px;
+}
+.getinvolved .btn{
+    color: black;
+}
+.options{
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    
+    background-color: lightyellow;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.contact{
+    color: #7880F2;
+}
+.contact .btn{
+    width: 100%;
+    font-size: 15px;
+    background-color: #49AFCE;
+    color: #fff;
 }
