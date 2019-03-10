@@ -57,6 +57,9 @@ section{
     width: 150px;
     display: inline-block;
 }
+.ourwork{
+    font-family: 'Schoolbell', cursive;
+}
 .team img{
     width: 150px;
     height: 150px;
@@ -75,6 +78,7 @@ section{
     padding: 50px 0px 80px;
     color: grey;
     font-size: x-large;
+    font-family: 'Gochi Hand', cursive;
 }
 .getinvolved h2{
     color: lightyellow;
@@ -101,10 +105,14 @@ section{
 }
 .contact{
     color: #7880F2;
+    
 }
 .contact .btn{
     width: 100%;
     font-size: 15px;
     background-color: #49AFCE;
     color: #fff;
+}
+.textarea{
+    color: red;
 }
