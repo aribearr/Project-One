@@ -27,17 +27,13 @@ h3{
 section{
     text-align: center;
     color: purple;
-    font-family: 'Caveat', cursive;
     font-size: x-large;
 }
-.aboutus h2{
-    font-family: 'Shadows Into Light Two', cursive;
-}
-.aboutus h3{
+.aboutus{
     font-family: 'Shadows Into Light Two', cursive;
 }
 /*icons*/
-.aboutus i{
+.ourwork i{
     /*change icon size*/
     font-size: 35px;
     padding: 23px 20px;
@@ -59,6 +55,7 @@ section{
 }
 .ourwork{
     font-family: 'Schoolbell', cursive;
+    color: #7957BC
 }
 .team img{
     width: 150px;
@@ -69,7 +66,7 @@ section{
     margin-bottom: 50px;
 }
 .team{
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Caveat', cursive;
     color: #BB69DE;
 }
 .getinvolved{
@@ -105,13 +102,14 @@ section{
 }
 .contact{
     color: #7880F2;
-    
+    padding: 50px 0px 80px;
 }
 .contact .btn{
     width: 100%;
     font-size: 15px;
     background-color: #49AFCE;
     color: #fff;
+    
 }
 .textarea{
     color: red;
