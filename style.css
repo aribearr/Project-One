@@ -74,8 +74,9 @@ section{
     text-align: center;
     padding: 50px 0px 80px;
     color: grey;
-    font-size: x-large;
     font-family: 'Gochi Hand', cursive;
+    margin-top: 50px;
+    width: 100%;
 }
 .getinvolved h2{
     color: lightyellow;
@@ -88,19 +89,19 @@ section{
     width: 50px;
     height: 40px;
 }
-.getinvolved .btn{
+.getinvolved .btn:hover{
     color: black;
 }
 .options{
     padding: 30px;
     margin: 10px;
     border: 1px solid #ccc;
-    
     background-color: lightyellow;
     border-radius: 5px;
     margin-top: 30px;
 }
 .contact{
+    margin-bottom: 80px;
     color: #7880F2;
     padding: 50px 0px 80px;
 }
@@ -108,9 +109,8 @@ section{
     width: 100%;
     font-size: 15px;
     background-color: #49AFCE;
-    color: #fff;
-    
+    color: #49AFCE;
 }
-.textarea{
-    color: red;
+.contact .btn:hover{
+    color: #FFF;
 }
